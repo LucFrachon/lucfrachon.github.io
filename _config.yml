@@ -1,10 +1,15 @@
 title: Luc Frachon # your name (or website title) here
 logo: "/images/profile_pic.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  Selected Projects 
-  <br><br>
-  Who am I?
-  <br><br>
+  Machine Learning and Data Science professional with 7 years' experience. Currently also pursuing a PhD 
+  in Deep Learning at Heriot-Watt University.
+  
+  Previously an ML & Data Science Consultant at LyRise.ai and an Adjunct Professor at NewGiza University, where I 
+  taught an Introduction to Data Science to bachelor students. I have an extensive mix of technical skills and 
+  project/stakeholder management experience.
+  
+  After two years in Egypt, I am now based in London, where I am authorised to work. Let's talk!
+  
   <a href="https://www.linkedin.com/in/lucfrachon/">View My LinkedIn Profile</a> 
   
 theme: jekyll-theme-minimal
