@@ -11,7 +11,7 @@ description: > # your text below (remove <br> elements if you don't need line br
   After two years in Egypt, I am now based in London, where I am authorised to work. 
   <br><br>
   Let's talk!
-  
+  <br><br>
   <a href="https://www.linkedin.com/in/lucfrachon/">View My LinkedIn Profile</a> 
   
 theme: jekyll-theme-minimal
