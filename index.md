@@ -3,14 +3,14 @@
 ---
 
 ### Denoising Diffusion Probabilistic Model trained on TinyImageNet and Google Image data; MLOps and hyperparameter sweep using WandB.  
-I implement the "Denoising diffusion probabilistic models" paper (Ho et al.) [1] and train it on a TinyImageNet [2] class. Additionally, I scrape about 500 images from Google Image to roughly double the size of the training set. The hyperparmeters are optimised with WandB Sweeps to minimise the Frechet Inception Distance. Even with only 1,000 images and limited data augmentation, the model is able to learn and produce decent pictures.
+I implement the "Denoising diffusion probabilistic models" paper (Ho et al.) [1] and train it on a TinyImageNet [2] class. Additionally, I scrape about 500 images from Google Images to roughly double the size of the training set. The hyperparmeters are optimised with WandB Sweeps to minimise the Frechet Inception Distance. Even with only 1,000 images and limited data augmentation, the model is able to learn and produce decent pictures.
 
 <p align="center">
   <img src="images/diffusion.gif?raw=true"/>  
 </p>  
 
 
-<img src="images/-Python-lightblue.svg"/> <img src="images/-PyTorch-lightgrey.svg"/> <img src="images/-Lightning AI-792EE5.svg"/> <img src="images/-WandB-darkgrey.svg"/>  
+<img src="images/-Python-lightblue.svg"/> <img src="images/-PyTorch-lightgrey.svg"/> <img src="images/-Lightning AI-792EE5.svg"/> <img src="images/-WandB-darkgrey.svg"/> <img src="images/-Google Images-lightgrey.svg"/>  
 [View on Github](https://github.com/LucFrachon/ddpm_tinyimagenet)  
 
 ---
