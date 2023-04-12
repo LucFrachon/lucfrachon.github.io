@@ -1,12 +1,12 @@
-## Portfolio
+## Selected Public Projects
 
 ---
 
-### Category Name 1 
+### Denoising Diffusion Probabilistic Model trained on TinyImageNet and Google Image data; MLOps and hyperparameter sweep using WandB.
 
-[Denoising Diffusion Probabilistic Model trained on TinyImageNet and Google Image data](https://github.com/LucFrachon/ddpm_tinyimagenet)
-<img src="https://github.com/LucFrachon/ddpm_tinyimagenet/blob/master/outputs/diffusion.gif"/>
-
+<img src="images/-Python-lightblue.svg"/><img src="images/-PyTorch-lightgrey.svg"/><-WandB-darkgrey.svg/>
+[View on Github](https://github.com/LucFrachon/ddpm_tinyimagenet)
+<img src="images/diffusion.gif?raw=true"/>
 ---
 [Project 2 Title](/pdf/sample_presentation.pdf)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
