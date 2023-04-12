@@ -3,10 +3,11 @@
 ---
 
 ### Denoising Diffusion Probabilistic Model trained on TinyImageNet and Google Image data; MLOps and hyperparameter sweep using WandB.  
-
+<p align="center">
+  <img src="images/diffusion.gif?raw=true"/>  
+</p>
 <img src="images/-Python-lightblue.svg"/>  <img src="images/-PyTorch-lightgrey.svg"/>  <img src="images/-WandB-darkgrey.svg"/>  
 [View on Github](https://github.com/LucFrachon/ddpm_tinyimagenet)  
-<img src="images/diffusion.gif?raw=true"/>  
 
 ---
 [Project 2 Title](/pdf/sample_presentation.pdf)
