@@ -18,8 +18,9 @@ I implement the "Denoising diffusion probabilistic models" paper (Ho et al.) and
 ### Reinforcement Learning for the Management of Invasive Species
 This work-in-progress models an environment as a grid and uses stochastic life-cycle rules to represent an invasive species. An actor-critic agent is trained to balance treatment cost and population size/proliferation. The state and value learning models are convolutional neural networks trained with replay.
 
+<p align="center">
   <img src="images/rewards.png?raw=true"/> <img src="images/episode_lengths.png?raw=true"/>    
-  
+</p>
 
 [Project 2 Title](/pdf/sample_presentation.pdf)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
