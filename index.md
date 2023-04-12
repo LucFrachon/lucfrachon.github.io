@@ -4,8 +4,8 @@
 
 ### Category Name 1 
 
-[Project 1 Title](/sample_page)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+[Denoising Diffusion Probabilistic Model trained on TinyImageNet and Google Image data](https://github.com/LucFrachon/ddpm_tinyimagenet)
+<img src="https://github.com/LucFrachon/ddpm_tinyimagenet/blob/master/outputs/diffusion.gif"/>
 
 ---
 [Project 2 Title](/pdf/sample_presentation.pdf)
