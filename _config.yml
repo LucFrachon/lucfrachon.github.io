@@ -3,8 +3,8 @@ logo: "/images/profile_pic.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   Welcome to my portfolio website! 
   <br><br>
-  I am a Machine Learning and Data Scientist with commercial and academic experience. I am currently finishing a PhD 
-  in Deep Learning at Heriot-Watt University (topic: Neural Ensemble Search), but am looking for immediate full-time 
+  I am a Machine Learning and Data Scientist with commercial and academic experience. Although I am currently finishing a PhD 
+  in Deep Learning at Heriot-Watt University (topic: Neural Ensemble Search), I am open to immediate full-time 
   oportunities.
   <br><br>
   Previously an ML & Data Science Consultant (LyRise.ai and freelance), an Adjunct Professor at NewGiza University (Egypt),
@@ -16,6 +16,7 @@ description: > # your text below (remove <br> elements if you don't need line br
   Let's talk!
   <br><br>
   <a href="https://www.linkedin.com/in/lucfrachon/">View My LinkedIn Profile</a> 
+  <a href="https://medium.com/@luc.frachon/">View My Medium Stories</a>
   
 theme: jekyll-theme-minimal
 google_analytics: G-CNPGRKF9XF # your Google Analytics tracking ID here
