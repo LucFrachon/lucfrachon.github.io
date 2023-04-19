@@ -10,7 +10,7 @@ I implement the "Denoising diffusion probabilistic models" paper (Ho _et al._) a
 </p>  
 
 
-<img src="images/-Python-lightblue.svg"/> <img src="images/-PyTorch-lightgrey.svg"/> <img src="images/-Lightning AI-792EE5.svg"/> <img src="images/-WandB-darkgrey.svg"/> <img src="images/-Google Images-lightgrey.svg"/> <img src="images/PyCharm-20D38F
+<img src="images/Python-F7CC40.svg"/> <img src="images/-PyTorch-lightgrey.svg"/> <img src="images/-Lightning AI-792EE5.svg"/> <img src="images/-WandB-darkgrey.svg"/> <img src="images/-Google Images-lightgrey.svg"/> <img src="images/PyCharm-20D38F
 .svg"/>  
 
 [View on Github](https://github.com/LucFrachon/ddpm_tinyimagenet)  
@@ -18,13 +18,13 @@ I implement the "Denoising diffusion probabilistic models" paper (Ho _et al._) a
 ---
 
 ### Reinforcement Learning for the Management of Invasive Species
-This work-in-progress models an environment as a grid and uses stochastic life-cycle rules to represent an invasive species. An actor-critic agent is trained to balance treatment cost and population size/proliferation. The state and value learning models are convolutional neural networks trained with replay.
+This work-in-progress models an environment as a grid and uses stochastic life-cycle rules to represent an invasive species. An actor-critic agent is trained to balance treatment cost and population size/proliferation. The state and value learning models are deep neural networks trained with replay.
 
 <p align="center">
-  <img src="images/rewards.png?raw=true"/> <img src="images/episode_lengths.png?raw=true"/>    
+  <img src="images/invasive_species.png?raw=true"/>   
 </p>
 
-<img src="images/-Python-lightblue.svg"/> <img src="images/-PyTorch-lightgrey.svg"/> <img src="images/PyCharm-20D38F.svg"/>  
+<img src="images/Python-F7CC40.svg"/> <img src="images/-PyTorch-lightgrey.svg"/> <img src="images/PyCharm-20D38F.svg"/>  
 
 [View on Github](https://github.com/LucFrachon/actor-critic-for-ecology)
 
@@ -38,7 +38,7 @@ I implement a Neural Radiance Field model (Mildenhall _et al._) in PyTorch, i.e.
     <img src="images/cameras.png?raw=true"/> <img src="images/tractor.png?raw=true"/>
 </p>
 
-<img src="images/-Python-lightblue.svg"/> <img src="images/-PyTorch-lightgrey.svg"/> <img src="images/-Lightning AI-792EE5.svg"/> <img src="images/-WandB-darkgrey.svg"/> <img src="images/Jupyter-lightgrey.svg"/>  
+<img src="images/Python-F7CC40.svg"/> <img src="images/-PyTorch-lightgrey.svg"/> <img src="images/-Lightning AI-792EE5.svg"/> <img src="images/-WandB-darkgrey.svg"/> <img src="images/Jupyter-lightgrey.svg"/>  
 
     
 [View on Github](https://github.com/LucFrachon/nerf)
@@ -55,14 +55,61 @@ The dataset contains eBay used car listings in the German market (found on Kaggl
 </p>
 
 
-<img src="images/-Python-lightblue.svg"/> <img src="images/NumPy-lightgrey.svg"/> <img src="images/-pandas-lightgrey.svg"/> <img src="images/Jupyter-lightgrey.svg"/> <img src="images/scikit--learn-45c5ff.svg"/>  
+<img src="images/Python-F7CC40.svg"/> <img src="images/NumPy-lightgrey.svg"/> <img src="images/-pandas-lightgrey.svg"/> <img src="images/Jupyter-lightgrey.svg"/> <img src="images/scikit--learn-45c5ff.svg"/>  
 
 [View on Github](https://github.com/LucFrachon/ngu_data_science_course_used_cars)
 
+---
+
+### Anomaly Detection with a Variational Autoencoder
+
+This notebook was originally developed to support a blog post (check out my Medium profile!). First, I explain what anomaly detection is. Then I give an intuitive explanation into variational autoencoders and why use them in anomaly detection (with animal analogies!).
+
+Finally, I build a model and train it on a dataset to predict the failure of an industrial machine.
+
+<p align="center">
+    <img src="images/dog-and-sheep.png?raw=true"/>  <img src="images/anomaly-detection.png?raw=true"/> 
+</p>
+
+<img src="images/Python-F7CC40.svg"/> <img src="images/-PyTorch-lightgrey.svg"/> <img src="images/-Lightning AI-792EE5.svg"/> <img src="images/-WandB-darkgrey.svg"/> <img src="images/Colab-lightgrey.svg"/>  
+
+[View the notebook on Google Colab](https://colab.research.google.com/drive/1BOjnuoNtznwdkFLf5Fv8ZSxAtnwI5q6Z?usp=sharing)
 
 ---
 
 ### Custom AutoML Pipeline for Financial Prediction
+
+This presentation quickly summarises my approach to developing an account scoring system for one of our clients. For confidentiality reasons, I had to heavily redact it, but it will still give you an idea of the challenges and thoughtprocess to address them.
+
+The model had to serve users from many different companies, each with different data nomenclatures. Therefore, I developed an automated ML (AutoML) pipeline that is able to perform model selection to train the best model for that company's data. The results were a substantial improvement over the previous model, with the user's estimated operating profitability improving by up to 5x.
+
+<p align="center">
+    <img src="images/scoring_model_performance.png?raw=true"
+         width=500
+    /> 
+</p>
+
+<img src="images/Python-F7CC40.svg"/> <img src="images/NumPy-lightgrey.svg"/> <img src="images/-pandas-lightgrey.svg"/> <img src="images/scikit--learn-45c5ff.svg"/> <img src="images/XGBoost-4eafe3.svg"/> <img src="images/Optuna-lightgrey.svg"/>  
+
+[View the presentation](https://lucfrachon.github.io/pdf/Scoring_Model.pdf)
+
+---
+
+### A Story in Tableau: Predictive Factors of Math Proficiency
+
+For something a bit different, I use 2012 OECD data from the Programme for International Student Assessment (PISA) to analyse how different factors were predictive of math proficiency among 15-year-old students worldwide. After collecting and sanitising the data, I import it into Tableau, manipulate it, and create a 10-page story (i.e., a collection of dashboards). I look into factors such as: socio-economics, personal and family situation, cultural variables, personal and teacher's attitudes and methods, class frequency vs duration, familiarity with and frequency of the use of computers and information technologies.
+
+
+<p align="center">
+    <img src="images/PISA Score Influencers-1.png?raw=true"
+         width=750
+    />
+</p>
+
+<img src="images/Python-F7CC40.svg"/> <img src="images/-pandas-lightgrey.svg"/> <img src="images/-Tableau-lightblue.svg"/>   
+
+[View the story](https://public.tableau.com/shared/ZMW92D59Q?:toolbar=n&:display_count=n&:origin=viz_share_link)
+
 
 
 ---
