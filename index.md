@@ -10,8 +10,7 @@ I implement the "Denoising diffusion probabilistic models" paper (Ho _et al._) a
 </p>  
 
 
-<img src="images/Python-F7CC40.svg"/> <img src="images/-PyTorch-lightgrey.svg"/> <img src="images/-Lightning AI-792EE5.svg"/> <img src="images/-WandB-darkgrey.svg"/> <img src="images/-Google Images-lightgrey.svg"/> <img src="images/PyCharm-20D38F
-.svg"/>  
+<img src="images/Python-F7CC40.svg"/> <img src="images/-PyTorch-lightgrey.svg"/> <img src="images/-Lightning AI-792EE5.svg"/> <img src="images/-WandB-darkgrey.svg"/> <img src="images/-Google Images-lightgrey.svg"/> <img src="images/PyCharm-20D38F.svg"/>  
 
 [View on Github](https://github.com/LucFrachon/ddpm_tinyimagenet)  
 
