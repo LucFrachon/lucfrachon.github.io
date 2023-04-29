@@ -35,7 +35,7 @@ This work-in-progress models an environment as a grid and uses stochastic life-c
 I implement a Neural Radiance Field model (Mildenhall _et al._) in PyTorch, i.e. a model able to generate novel views of a 3D scene after being trained on a collection of pictures of the scene from different angles. The model learns to predict the emitted colour and the density of each point in the scene from any angle, and accumulates these values along paths that reach each of the new view's pixels, resulting in a image.
 
 <p align="center">
-    <img src="images/cameras.png?raw=true"/> <img src="images/tractor.png?raw=true"/>
+    <img src="images/cameras.png?raw=true" width=400/> <img src="images/nerf_render.png?raw=true" width=400/>
 </p>
 
 <img src="images/Python-F7CC40.svg"/> <img src="images/-PyTorch-lightgrey.svg"/> <img src="images/-Lightning AI-792EE5.svg"/> <img src="images/-WandB-darkgrey.svg"/> <img src="images/Jupyter-lightgrey.svg"/>  
