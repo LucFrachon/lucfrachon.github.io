@@ -4,7 +4,7 @@
 
 
 ### [WIP] Masked ViT Autoencoder for Anomaly Detection
-I train a modified Visual Transformer-based Masked Autoencoder on images of non-defective examples only, in self-supervised fashion. I then use the resulting model to reconstruct images of good and defective examples, and use the reconstruction loss as an anomaly score, thus producing an anomaly map for each example. The highest value of the scaled loss map constitutes the absolute anomaly score for the example, and it is flagged as defective if the score exceeds an adjustable threshold.
+An idea I've had while thinking about the masked-autoencoder paradigm in self-supervised training. I train a modified Visual Transformer-based Masked Autoencoder on images of non-defective examples only, in self-supervised fashion. I then use the resulting model to reconstruct images of good and defective examples, and use the reconstruction loss as an anomaly score, thus producing an anomaly map for each example. The highest value of the scaled loss map constitutes the absolute anomaly score for the example, and it is flagged as defective if the score exceeds an adjustable threshold.
 
 <p align="center">
   <img src="images/capsules.png?raw=true" width=750/>  

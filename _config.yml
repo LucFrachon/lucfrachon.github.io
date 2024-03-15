@@ -15,7 +15,7 @@ description: > # your text below (remove <br> elements if you don't need line br
   <br><br>
   <a href="https://www.linkedin.com/in/lucfrachon/">View My LinkedIn Profile</a><br>
   <a href="https://medium.com/@luc.frachon/">View My Medium Stories</a><br>
-<a href="https://lucfrachon.github.io/pdf/Scoring_Model.pdf">Get my CV</a>
+  <a href="https://lucfrachon.github.io/pdf/Scoring_Model.pdf">Get my CV</a>
   
 theme: jekyll-theme-minimal
 google_analytics: G-CNPGRKF9XF # your Google Analytics tracking ID here
