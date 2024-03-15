@@ -38,12 +38,12 @@ I implement a Neural Radiance Field model (Mildenhall _et al._) in PyTorch, i.e.
 
 <img src="images/Python-F7CC40.svg"/> <img src="images/-PyTorch-lightgrey.svg"/> <img src="images/-Lightning AI-792EE5.svg"/> <img src="images/-WandB-darkgrey.svg"/> <img src="images/Jupyter-lightgrey.svg"/> 
 
-[View on Github](https://github.com/LucFrachon/lyrics-dreamer)
+[View on Github](https://github.com/LucFrachon/nerf)
 
 ---
 
 ### Lyrics Dreamer
-This web application generates lyrics in the style of various artists that I like (Radiohead, Bob Dylan, Arctic Monkeys, David Bowie, etc.). Give it the start of a sentence, and it will complete it. You can also play a game of "recognise the artist": A random prompt starts the lyrics generation, and you must guess whose style the model emulates. The application is written in Javascript with CSS and a Python Flask backend.
+This web application generates lyrics in the style of various artists that I like (Radiohead, Bob Dylan, Arctic Monkeys, David Bowie, etc.). Give it the start of a sentence, and it will complete it. You can also play a game of "recognise the artist": A random prompt starts the lyrics generation, and you must guess whose style the model emulates. The LLMs are GPT-2 fine-tuned on each artist's complete collection of lyrics. The application is written in Javascript with CSS styling and a Python Flask backend.
 
 <p align="center">
   <img src="images/lyrics_dreamer_homepage.png?raw=true"
@@ -51,13 +51,13 @@ This web application generates lyrics in the style of various artists that I lik
 </p>
 
 
-
+<img src="images/Python-F7CC40.svg"/>
 <img src="images/huggingface.svg?raw=true"/>
 <img src="images/flask-logo.svg"/>
-<img src="images/js-logo.svg"/>
+<img src="images/JS-logo.svg"/>
 <img src="images/css-logo.svg"/>
 
-[View on Github](https://github.com/LucFrachon/nerf)
+[View on Github](https://github.com/LucFrachon/lyrics-dreamer)
 
 ---
 
