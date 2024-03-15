@@ -17,7 +17,7 @@ An idea I've had while thinking about the masked-autoencoder paradigm in self-su
 ---
 
 ### Denoising Diffusion Probabilistic Model trained on TinyImageNet and Google Images data; MLOps and hyperparameter sweep using WandB  
-I implement the "Denoising diffusion probabilistic models" paper (Ho _et al._) and train it on a TinyImageNet class. Additionally, I scrape about 500 images from Google Images to roughly double the size of the training set. The hyperparmeters are optimised with WandB Sweeps to minimise the Frechet Inception Distance. Artifacts and runs are logged with WandB. Even with only 1,000 images and limited data augmentation, the model is able to learn and produce evocative pictures.
+I implement the "Denoising diffusion probabilistic models" paper (Ho _et al._) from scratch and train it on a TinyImageNet class. Additionally, I scrape about 500 images from Google Images to roughly double the size of the training set. The hyperparmeters are optimised with WandB Sweeps to minimise the Frechet Inception Distance. Artifacts and runs are logged with WandB. Even with only 1,000 images and limited data augmentation, the model is able to learn and produce evocative pictures.
 
 <p align="center">
   <img src="images/diffusion.gif?raw=true"/>  
@@ -30,7 +30,7 @@ I implement the "Denoising diffusion probabilistic models" paper (Ho _et al._) a
 ---
 
 ### Neural Radiance Fields
-I implement a Neural Radiance Field model (Mildenhall _et al._) in PyTorch, i.e. a model able to generate novel views of a 3D scene after being trained on a collection of pictures of the scene from different angles. The model learns to predict the emitted colour and the density of each point in the scene from any angle, and accumulates these values along paths that reach each of the new view's pixels, resulting in a image.
+I implement a Neural Radiance Field model (Mildenhall _et al._) in PyTorch from scratch. NeRF is a model able to generate novel views of a 3D scene after being trained on a collection of pictures of the scene from different angles. The model learns to predict the emitted colour and the density of each point in the scene from any angle, and accumulates these values along paths that reach each of the new view's pixels, resulting in a image.
 
 <p align="center">
     <img src="images/cameras.png?raw=true" width=400/> <img src="images/nerf_render.png?raw=true" width=400/>
