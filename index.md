@@ -29,19 +29,6 @@ I implement the "Denoising diffusion probabilistic models" paper (Ho _et al._) f
 
 ---
 
-### Neural Radiance Fields
-I implement a Neural Radiance Field model (Mildenhall _et al._) in PyTorch from scratch. NeRF is a model able to generate novel views of a 3D scene after being trained on a collection of pictures of the scene from different angles. The model learns to predict the emitted colour and the density of each point in the scene from any angle, and accumulates these values along paths that reach each of the new view's pixels, resulting in a image.
-
-<p align="center">
-    <img src="images/cameras.png?raw=true" width=400/> <img src="images/nerf_render.png?raw=true" width=400/>
-</p>
-
-<img src="images/Python-F7CC40.svg"/> <img src="images/-PyTorch-lightgrey.svg"/> <img src="images/-Lightning AI-792EE5.svg"/> <img src="images/-WandB-darkgrey.svg"/> <img src="images/Jupyter-lightgrey.svg"/> 
-
-[View on Github](https://github.com/LucFrachon/nerf)
-
----
-
 ### Lyrics Dreamer
 This web application generates lyrics in the style of various artists that I like (Radiohead, Bob Dylan, Arctic Monkeys, David Bowie, etc.). Give it the start of a sentence, and it will complete it. You can also play a game of "recognise the artist": A random prompt starts the lyrics generation, and you must guess whose style the model emulates. The LLMs are GPT-2 fine-tuned on each artist's complete collection of lyrics. The application is written in Javascript with CSS styling and a Python Flask backend.
 
@@ -58,6 +45,19 @@ This web application generates lyrics in the style of various artists that I lik
 <img src="images/css-logo.svg"/>
 
 [View on Github](https://github.com/LucFrachon/lyrics-dreamer)
+
+---
+
+### Neural Radiance Fields
+I implement a Neural Radiance Field model (Mildenhall _et al._) in PyTorch from scratch. NeRF is a model able to generate novel views of a 3D scene after being trained on a collection of pictures of the scene from different angles. The model learns to predict the emitted colour and the density of each point in the scene from any angle, and accumulates these values along paths that reach each of the new view's pixels, resulting in a image.
+
+<p align="center">
+    <img src="images/cameras.png?raw=true" width=400/> <img src="images/nerf_render.png?raw=true" width=400/>
+</p>
+
+<img src="images/Python-F7CC40.svg"/> <img src="images/-PyTorch-lightgrey.svg"/> <img src="images/-Lightning AI-792EE5.svg"/> <img src="images/-WandB-darkgrey.svg"/> <img src="images/Jupyter-lightgrey.svg"/> 
+
+[View on Github](https://github.com/LucFrachon/nerf)
 
 ---
 
