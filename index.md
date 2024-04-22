@@ -43,7 +43,7 @@ This web application generates lyrics in the style of various artists that I lik
 
 ---
 
-### Neural Radiance Fields
+### Neural Radiance Fields From Scratch
 I implement a Neural Radiance Field model (Mildenhall _et al._) in PyTorch from scratch. NeRF is a model able to generate novel views of a 3D scene after being trained on a collection of pictures of the scene from different angles. The model learns to predict the emitted colour and the density of each point in the scene from any angle, and accumulates these values along paths that reach each of the new view's pixels, resulting in a image.
 
 <p align="center">
