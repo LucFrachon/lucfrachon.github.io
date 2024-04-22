@@ -35,14 +35,9 @@ This web application generates lyrics in the style of various artists that I lik
 <p align="center">
   <img src="images/lyrics_dreamer_homepage.png?raw=true"
    width=750/> 
-</p>
+</p>  
 
-
-<img src="images/Python-F7CC40.svg"/>
-<img src="images/huggingface.svg?raw=true"/>
-<img src="images/flask-logo.svg"/>
-<img src="images/JS-logo.svg"/>
-<img src="images/css-logo.svg"/>
+<img src="images/Python-F7CC40.svg"/> <img src="images/huggingface.svg?raw=true"/> <img src="images/flask-logo.svg"/> <img src="images/JS-logo.svg"/> <img src="images/css-logo.svg"/>
 
 [View on Github](https://github.com/LucFrachon/lyrics-dreamer)
 
@@ -53,7 +48,7 @@ I implement a Neural Radiance Field model (Mildenhall _et al._) in PyTorch from 
 
 <p align="center">
     <img src="images/cameras.png?raw=true" width=400/> <img src="images/nerf_render.png?raw=true" width=400/>
-</p>
+</p>  
 
 <img src="images/Python-F7CC40.svg"/> <img src="images/-PyTorch-lightgrey.svg"/> <img src="images/-Lightning AI-792EE5.svg"/> <img src="images/-WandB-darkgrey.svg"/> <img src="images/Jupyter-lightgrey.svg"/> 
 
